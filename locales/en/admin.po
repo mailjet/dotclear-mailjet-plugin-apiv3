@@ -1,0 +1,288 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mailjet dotclear\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-23 14:00+0100\n"
+"PO-Revision-Date: 2012-08-23 14:02+0100\n"
+"Last-Translator: Jonathan Foucher <jfoucher@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /home/jonathan/html/dotclear/plugins/mailjet\n"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/_widgets.php:25
+msgid "Mailjet subscription"
+msgstr "Souscription Mailjet"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/_widgets.php:28
+msgid "Title:"
+msgstr "Titre : "
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/_widgets.php:31
+msgid "Button text:"
+msgstr "Text du bouton :"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/_widgets.php:34
+msgid "List:"
+msgstr "Liste :"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/_admin.php:19
+#: /home/jonathan/html/dotclear/plugins/mailjet/_admin.php:46
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:20
+msgid "Mailjet"
+msgstr "Mailjet"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/_admin.php:65
+msgid "Mailjet: active"
+msgstr "Mailjet : activé"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/_admin.php:71
+msgid "Mailjet: inactive"
+msgstr "Mailjet : désactivé"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:47
+msgid "Enter a test address email"
+msgstr "Entrer une adresse email de test"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:52
+msgid "You must enter your Mailjet API Key"
+msgstr "Vous devez renseigner votre clé API Mailjet"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:61
+msgid "You must enter your Mailjet Secret Key"
+msgstr "Vous devez renseigner votre secret API Mailjet"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:124
+msgid "Your test mail from Mailjet"
+msgstr "Votre email de test depuis Mailjet"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:125
+msgid "Your Mailjet configuration is ok!"
+msgstr "La configuration de Mailjet est ok !"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:134
+#, php-format
+msgid "Please contact Mailjet support to sort this out.<br /><br />%d - %s"
+msgstr "Veuillez contacter le support Mailjet pour régler ce problème.<br /><br />%d - %s"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:152
+msgid "Configuration successfully updated."
+msgstr "Configuration enregistrée"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:153
+msgid "To enable Mailjet, please copy this function _mail () in your dotclear/inc/config.php file:"
+msgstr "Pour activer Mailjet, copier cette fonction _mail() dans le fichier dotclear/inc/config.php :"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:154
+msgid "To disable Mailjet, please remove the function _mail () in your dotclear/inc/config.php file."
+msgstr "Pour désactiver Mailjet, retirer cette fonction _mail() de votre fichier dotclear/inc/config.php :"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:187
+msgid "Could not create list at this time."
+msgstr "Impossible de créer la liste"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:193
+msgid "The list label is mandatory."
+msgstr "Le label de la liste est obligatoire"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:222
+msgid "No menu items selected."
+msgstr "Aucun élément du menu n'est sélectionné"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:242
+msgid "Could not subscribe this contact."
+msgstr "Impossible d'inscrire ce contact"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:251
+msgid "No email defined."
+msgstr "Pas d'email défini"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:280
+msgid "No contacts selected."
+msgstr "Aucun contact sélectionné"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:295
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:618
+msgid "Mailjet settings"
+msgstr "Préférences Mailjet"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:335
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:454
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:456
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:532
+msgid "Create list"
+msgstr "Crééer une liste"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:338
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:350
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:360
+msgid "Contact lists"
+msgstr "Liste de contacts"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:363
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:600
+msgid "Settings"
+msgstr "Préférences"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:399
+msgid "Mailjet plugin enabled"
+msgstr "Plugin Mailjet activé"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:424
+msgid "Mailjet plugin disabled"
+msgstr "Plugin Mailjet désactivé"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:432
+msgid "List added sucessfully"
+msgstr "Liste ajoutée avec succès"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:435
+msgid "List removed sucessfully"
+msgstr "Liste supprimée avec succcès"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:438
+msgid "Contact(s) removed successfully"
+msgstr "Contacts(s) supprimés avec succcès"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:441
+msgid "Contact(s) subscribed successfully"
+msgstr "Contact(s) inscrits avec succcès"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:449
+msgid "Lists"
+msgstr "Liste"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:451
+msgid "New list"
+msgstr "Nouvelle liste"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:455
+msgid "List label:"
+msgstr "Label de la liste :"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:466
+msgid "Label"
+msgstr "Label"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:467
+msgid "Name"
+msgstr "Nom"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:468
+msgid "Number of contacts"
+msgstr "Nombre de contacts"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:469
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:548
+msgid "ID"
+msgstr "ID"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:481
+msgid "select this list"
+msgstr "Selectionner cette liste"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:508
+msgid "Delete selected lists"
+msgstr "Supprimer les lsites sélectionnées"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:509
+msgid "Are you sure you want to remove selected lists?"
+msgstr "Etes vous sûr(e) de vouloir supprimer les listes sélectionnées ?"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:526
+#, php-format
+msgid "Contacts of %s"
+msgstr "Contacts de %s"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:529
+msgid "New contact"
+msgstr "Nouveau contact"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:534
+msgid "Contact email"
+msgstr "Email du contact"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:535
+msgid "Subscribe new contact"
+msgstr "Inscrire un nouveau contact"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:544
+msgid "Email"
+msgstr "Email"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:545
+msgid "Created on"
+msgstr "Créé le"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:546
+msgid "Last activity"
+msgstr "Dernière activité"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:547
+msgid "Messages sent"
+msgstr "Messages envoyés"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:562
+msgid "select this contact"
+msgstr "Selectionner ce contact"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:590
+msgid "Delete selected contacts"
+msgstr "Supprimer les contacts sélectionnés"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:591
+msgid "Are you sure you want to remove selected contacts from this list?"
+msgstr "Etes vous sûr(e) de vouloir supprimer les contacts sélectionnés"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:603
+msgid "General settings"
+msgstr "Préférences générales"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:605
+msgid "Enabled :"
+msgstr "Activé"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:608
+msgid "Send test mail now :"
+msgstr "Envoyer un email de test maintenant"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:611
+msgid "Recipient of test mail :"
+msgstr "Destinaire de l'email de test"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:614
+msgid "Sender email address :"
+msgstr "Adresse email de l'epéditeur"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:620
+msgid "API Key :"
+msgstr "Clé API"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:623
+msgid "Secret Key :"
+msgstr "Clé secrète"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/index.php:631
+msgid "Save configuration"
+msgstr "Enregistrer la configuration"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/_services.php:12
+msgid "No list ID given"
+msgstr "Pas d'ID de liste"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/_services.php:17
+msgid "Please enter your email"
+msgstr "Veuillez entrer votre email"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/_services.php:31
+msgid "Sorry, we could not subscribe you at this time"
+msgstr "Désolé, nous n'avons pas pu vous inscrire"
+
+#: /home/jonathan/html/dotclear/plugins/mailjet/_services.php:34
+msgid "Thanks for subscribing"
+msgstr "Merci de votre inscription"
+

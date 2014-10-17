@@ -1,0 +1,21 @@
+# Language: Français
+# Module: adminExample - 0.1.2
+# Date: 2011-05-18 20:42:27
+# Translated with translater 1.5
+
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: adminExample 0.1.2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-05-18T20:42:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: _admin.php:19
+#: _admin.php:46
+#: index.php:43
+#: index.php:49
+msgid "Admin example"
+msgstr "Example d'administration"
+
