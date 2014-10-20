@@ -8,7 +8,7 @@ Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Mailjet's Dotclear plugin provides complete control of Email settings with Dotclear. It replaces your default SMTP settings to route your emails with Mailjet.
+Mailjet's Dotclear plugin provides complete control of Email settings with Dotclear. It replaces your default SMTP settings to route your emails with Mailjet and also provides the latest generation Mailjet iFrames for Dotclear users to send and track email marketing campaigns straight from their Dotclear admin.
 
 
 ## Description
@@ -17,8 +17,7 @@ Mailjet's Dotclear plugin provides complete control of Email settings with Dotcl
 
 Mailjet's official plugin for DotClear will allow you to:
 
-* Send both transactional and marketing emails from your DotClear site;
-* Reconfigure your wp_mail() function to use Mailjet's SMTP instead of mail() for enhanced deliverability and tracking;
+* Send transactional emails over Mailjet's enhanced SMTP relay from your DotClear site for advanced deliverability and tracking
 * To easily create contact lists and manage personalisation variables;
 * Have the insight you need from a real-time dashboard showing opens, clicks, geographies, average time to click, user agents, etc;
 * Easily create and send marketing campaigns using drag and drop Newsletter builder or selecting from our template library;
@@ -48,5 +47,6 @@ dotclear-mailjet-plugin is licensed under the MIT License. (See [LICENSE](LICENS
 
 ## Changelog
 
-= 2.0.0=
+= 3.0.0=
 * Supports V1 and V3 Mailjet's users
+* Added V3 iframes for full contact, campaign and stats management
