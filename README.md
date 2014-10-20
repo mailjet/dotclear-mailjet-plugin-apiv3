@@ -8,7 +8,7 @@ Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Mailjet's Dotclear plugin provides complete control of Email settings with Dotclear. It replaces your default SMTP settings to route your emails with Mailjet and also provides the latest generation Mailjet iFrames for Dotclear users to send email marketing campaigns straight from their Dotclear admin.
+Mailjet's Dotclear plugin provides complete control of Email settings with Dotclear. It replaces your default SMTP settings to route your emails with Mailjet and also provides the latest generation Mailjet iFrames for Dotclear users to send and track email marketing campaigns straight from their Dotclear admin.
 
 
 ## Description
