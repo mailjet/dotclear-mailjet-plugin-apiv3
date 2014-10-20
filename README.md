@@ -47,5 +47,5 @@ dotclear-mailjet-plugin is licensed under the MIT License. (See [LICENSE](LICENS
 
 ## Changelog
 
-= 2.0.0=
+= 3.0.0=
 * Supports V1 and V3 Mailjet's users
