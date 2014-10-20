@@ -49,3 +49,4 @@ dotclear-mailjet-plugin is licensed under the MIT License. (See [LICENSE](LICENS
 
 = 3.0.0=
 * Supports V1 and V3 Mailjet's users
+* Added V3 iframes for full contact, campaign and stats management
