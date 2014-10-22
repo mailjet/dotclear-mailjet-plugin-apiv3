@@ -15,7 +15,7 @@ $this->registerModule(
 	/* Name */				'mailjet',
 	/* Description */		'Mailjet puts your e-mail delivery and traceability at ease. Simply send, we take care of the rest.',
 	/* Author */			'Mailjet SAS',
-	/* Version */			'2.0.0',
+	/* Version */			'3.0.1',
 	/* Permissions */		'usage,contentadmin',
 	array(
 		'type'		=>		'plugin'
