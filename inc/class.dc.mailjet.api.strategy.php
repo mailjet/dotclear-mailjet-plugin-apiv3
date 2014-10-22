@@ -261,9 +261,10 @@
  	public function getContactLists($params)
 	{
 		// Set input parameters
-		$input = array(
-			'akid'	=> $this->_akid
-		);
+		$input = array();
+		if(isset($this->_akid))
+			$input['akid'] = $this->_akid; 
+			
 		if(isset($params['limit'])) $input['limit'] = $params['limit'];
 		
 		// Get the list
