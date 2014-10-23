@@ -310,6 +310,15 @@ class Mailjet_Api_V3
     {
     	return $this->_log_once;
     }
+	
+	/**
+     * 
+     * @return string
+     */
+    public function getVersion()
+    {
+    	return $this->_version;
+    }
     
     /**
      *

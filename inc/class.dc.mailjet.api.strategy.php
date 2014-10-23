@@ -261,16 +261,17 @@
  	public function getContactLists($params)
 	{
 		// Set input parameters
-		$input = array(
-			'akid'	=> $this->_akid
-		);
+		$input = array();
+		if(isset($this->_akid))
+			$input['akid'] = $this->_akid; 
+			
 		if(isset($params['limit'])) $input['limit'] = $params['limit'];
 		
 		// Get the list
 		$response = $this->liststatistics($input);
 
 		// Check if the list exists
-		if(isset($response->Data) && count($response->Data) > 0)
+		if(isset($response->Data))
 		{
 			$lists = array();
 			foreach ($response->Data as $list)
@@ -532,7 +533,7 @@
 			}
 		} else {
 			// Get the version of the API
-			$this->version = $this->context->_version;
+			$this->version = $this->context->getVersion();
 			
 			// Some contacts
 			$this->mj_host = 'in-v3.mailjet.com';
