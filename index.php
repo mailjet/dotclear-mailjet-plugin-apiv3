@@ -284,7 +284,7 @@ if (($step > 2) || ($step < 0))
 				?>
 					<div class="multi-part" id="settings" title="<?php echo __('Contacts'); ?>">
 				<?php
-					echo '<iframe width="980px" height="1200" src="https://'.(($api->version == '0.1')?'www':(($api->version == 'REST')?'app':'www')).'.mailjet.com/contacts/lists?t='._get_auth_token($api, $settings).'&show_menu=none&u=DotClear-2.0&f=amc"></iframe>';
+					echo '<iframe width="980px" height="1200" src="https://'.(($api->version == '0.1')?'www':(($api->version == 'REST')?'app':'www')).'.mailjet.com/contacts/lists?t='._get_auth_token($api, $settings).'&show_menu=none&u=dotclear-3.0&f=amc"></iframe>';
 				?>
 					</div>
 				<?php
@@ -299,7 +299,7 @@ if (($step > 2) || ($step < 0))
 				?>
 					<div class="multi-part" id="settings" title="<?php echo __('Campaigns'); ?>">
 				<?php
-					echo '<iframe width="980px" height="1200" src="https://'.(($api->version == '0.1')?'www':(($api->version == 'REST')?'app':'www')).'.mailjet.com/campaigns?t='._get_auth_token($api, $settings).'&show_menu=none&u=DotClear-2.0&f=amc"></iframe>';
+					echo '<iframe width="980px" height="1200" src="https://'.(($api->version == '0.1')?'www':(($api->version == 'REST')?'app':'www')).'.mailjet.com/campaigns?t='._get_auth_token($api, $settings).'&show_menu=none&u=dotclear-3.0&f=amc"></iframe>';
 				?>
 					</div>
 				<?php
@@ -314,7 +314,7 @@ if (($step > 2) || ($step < 0))
 				?>
 					<div class="multi-part" id="settings" title="<?php echo __('Contacts'); ?>">
 				<?php
-					echo '<iframe width="980px" height="1200" src="https://'.(($api->version == '0.1')?'www':(($api->version == 'REST')?'app':'www')).'.mailjet.com/stats?t='._get_auth_token($api, $settings).'&show_menu=none&u=DotClear-2.0&f=amc"></iframe>';
+					echo '<iframe width="980px" height="1200" src="https://'.(($api->version == '0.1')?'www':(($api->version == 'REST')?'app':'www')).'.mailjet.com/stats?t='._get_auth_token($api, $settings).'&show_menu=none&u=dotclear-3.0&f=amc"></iframe>';
 				?>
 					</div>
 				<?php
