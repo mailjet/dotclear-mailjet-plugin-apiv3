@@ -328,6 +328,11 @@ if (($step > 2) || ($step < 0))
 				<div class="multi-part" id="settings" title="<?php echo __('Settings'); ?>">
 				    <form method="post" action="<?php echo $p_url; ?>">
 				        <fieldset>
+							<p>
+				        		<?php 
+				        			echo __('<a target="_blank" href="https://www.mailjet.com/signup?p=dotclear-3.0">Create your Mailjet account</a> if you don\'t have any.');
+								?>
+							</p>
 				            <legend><?php echo __('General settings'); ?></legend>
 				            <p>
 				                <label class="classic"><?php echo __('Enabled :') . ' ' . form::checkbox ('mj_enabled', '1', $fields['mj_enabled']); ?></label>
