@@ -4,7 +4,7 @@ Contributors: mailjet
 Tags: email, marketing, signup, newsletter, widget, smtp, mailjet
 Requires at least: 2.6.4
 Tested up to: 2.6.4
-Stable tag: 3.0.2
+Stable tag: 3.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,9 @@ dotclear-mailjet-plugin is licensed under the MIT License. (See [LICENSE](LICENS
 
 
 ## Changelog
+= 3.0.3=
+* When we create a TOKEN we also send SentData containing plugin name
+
 = 3.0.2=
 * Modification of how to detect v1 and v3 users.
 
