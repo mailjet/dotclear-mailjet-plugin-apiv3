@@ -552,7 +552,8 @@
 			'TokenType' 	=> 'iframe',			
 			'CatchedIp'  	=> $_SERVER['REMOTE_ADDR'],
 			'log_once' 		=> TRUE,
-			'IsActive'		=> TRUE
+			'IsActive'		=> TRUE,
+			'SentData'		=> serialize(array('plugin' => 'dotclear-3.0')),
 		));	
 
 	 	// Get and return the token
